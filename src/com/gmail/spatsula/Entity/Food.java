@@ -6,6 +6,9 @@ public class Food {
     private String description;
     private String calories;
 
+    public Food() {
+    }
+
     public Food(String name, String price, String description, String calories) {
         this.name = name;
         this.price = price;
