@@ -1,5 +1,6 @@
-package com.gmail.spatsula;
+package com.gmail.spatsula.Services;
 
+import com.gmail.spatsula.Entity.User;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

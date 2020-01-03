@@ -1,4 +1,4 @@
-package com.gmail.spatsula;
+package com.gmail.spatsula.Entity;
 
 public class User {
     private String name;

@@ -1,7 +1,7 @@
 package test;
 
-import com.gmail.spatsula.CreateXml;
-import com.gmail.spatsula.User;
+import com.gmail.spatsula.Services.CreateXml;
+import com.gmail.spatsula.Entity.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,6 @@ class CreateXmlTest {
         usersList.add(firstUser);
         usersList.add(secondUser);
 
-        assertTrue(CreateXml.createDOM(usersList, "result.xml")); 
+        assertTrue(CreateXml.createDOM(usersList, "CreateXMLresult.xml")); 
     }
 }
